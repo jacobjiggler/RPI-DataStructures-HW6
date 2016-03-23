@@ -1,0 +1,10 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=00403738
+eax=0000000B ebx=00000013 ecx=800103B0 edx=0000000B esi=61273CB0 edi=611A1EDB
+ebp=0028ABD8 esp=0028ABB0 program=C:\Users\jacob\Documents\dropbox\datastructures\hw\hw6\test_permutation.exe, pid 832, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028ABD8  00403738  (00000000, 00000013, 0028AC4F, 0028AC50)
+0028AC68  004013F2  (00000001, 0028AC90, 80010100, 6127756A)
+0028ACF8  61007535  (00000000, 0028CD78, 61006B20, 00000000)
+End of stack trace
